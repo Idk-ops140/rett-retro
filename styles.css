@@ -1,0 +1,26 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #00ff00;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#code-container {
+    border: 1px solid #00ff00;
+    padding: 10px;
+    background-color: #111;
+    overflow: auto;
+    height: 400px;
+    font-size: 14px;
+}
+
+pre {
+    white-space: pre-wrap; /* Preserve whitespace */
+    word-wrap: break-word; /* Break long words */
+}
